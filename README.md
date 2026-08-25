@@ -1,11 +1,89 @@
-# Taller_Funciones_JS
-##Taller Funciones JS
+# Taller: Funciones y Manipulación del DOM en JavaScript
 
-1. Walter Castro.
+¡Bienvenidos al taller práctico de JavaScript! En esta actividad pondrás en práctica conceptos fundamentales del lenguaje (tipos, operadores, estructuras de control, bucles, funciones, scope y métodos modernos), integrándolos con la manipulación del DOM y el flujo de trabajo colaborativo en Git/GitHub.
 
-2. Carol Hernandez.
+---
 
-3. Juan Diaz
+## 📋 Objetivos del Taller
+1. Dominar la sintaxis y lógica básica e intermedia de JavaScript moderno (ES6+).
+2. Conectar funciones en JavaScript con interfaces web mediante la manipulación del DOM (`<input>`, `<button>`, `addEventListener`, innerHTML/textContent).
+3. Aplicar buenas prácticas de control de versiones con Git (Fork, Branch, Commit semántico y Push).
+
+---
+
+## 🚀 Flujo de Trabajo (Git & GitHub)
+
+Sigue estos pasos ordenadamente para desarrollar y entregar tu taller:
+
+1. **Fork del Repositorio:**  
+   Haz clic en el botón **Fork** (arriba a la derecha en GitHub) para crear una copia del repositorio en tu cuenta personal.
+2. **Clonar tu Fork:**  
+   Clona tu repositorio forkeado a tu máquina local:
+   ```bash
+   git clone https://github.com/TU-USUARIO/Taller_Funciones_JS.git
+   cd Taller_Funciones_JS
+   ```
+3. **Modificar el HTML (`index.html`):**  
+   - Localiza la sección de tu formulario en el archivo HTML o agrega los campos necesarios (`<input>`, `<select>`, `<button>`, etc.) para ingresar los parámetros de tus retos asignados.
+   - Asegúrate de incluir contenedores (`<div>`, `<span>` o `<p>`) con `id` específicos para mostrar el resultado retornado por tus funciones.
+4. **Implementar el JavaScript (`script.js` / `app.js`):**  
+   - Desarrolla la lógica de cada una de tus funciones asignadas.
+   - Conecta tus funciones con los elementos del DOM mediante escuchadores de eventos (`addEventListener('click', ...)` o `addEventListener('submit', ...)`).
+   - Valida y formatea las salidas para que sean claras para el usuario final.
+5. **Guardar y Subir Cambios:**  
+   Realiza tus commits y súbelos a tu repositorio remoto:
+   ```bash
+   git add .
+   git commit -m "feat: implementacion de retos y conexion con el DOM - [Tu Nombre]"
+   git push origin main
+   ```
+6. **Entrega:**  
+   Comparte el enlace de tu repositorio forkeado (o genera un Pull Request si tu instructor lo solicita).
+
+---
+
+## 👥 Tabla de Asignación por Estudiante
+
+| # | Estudiante | Tema Principal | Cantidad de Retos |
+|---|---|---|:---:|
+| 01 | **Walter Castro** | *(Pendiente de asignar funciones)* | - |
+| 02 | **Carol Hernandez** | *(Pendiente de asignar funciones)* | - |
+| 03 | **Juan Diaz** | Tipos Primitivos, Objetos y Arrays | 7 retos |
+| 04 | **Fernanda Zuluaga** | Template Literals e Interpolación | 6 retos |
+| 05 | **Maria Camila Ortiz** | Métodos de Strings (`length`, `slice`, `split`, `trim`) | 5 retos |
+| 06 | **Vanessa Castañeda** | Coerción de Tipos y Conversión Numérica | 5 retos |
+| 07 | **Dayvid Ruiz** | Operadores de Comparación e Igualdad | 5 retos |
+| 08 | **Kevin Moreno** | Operadores Lógicos (`&&`, `\|\|`, `!`) | 5 retos |
+| 09 | **Omar Rosario** | Estructuras Condicionales (`if`, `else if`, `else`) | 4 retos |
+| 10 | **Diana Sosa** | Control de Flujo con `switch` | 4 retos |
+| 11 | **Josue Castañeda** | Bucles e Iteraciones I (`for`, `while`, `do-while`) | 3 retos |
+| 12 | **Kevin Perea** | Bucles e Iteraciones II (`while`, `do-while`) | 3 retos |
+| 13 | **Angel Garzon** | Funciones, Parámetros y Arrow Functions | 3 retos |
+| 14 | **Carolina Ramirez** | Alcance de Variables (*Scope* Global, Función, Bloque) | 3 retos |
+| 15 | **Yira Gomez** | Métodos de Arreglos (`map`) | 1 reto |
+| 16 | **Juan David Cuervo** | Inmutabilidad y Operador Spread (`...`) | 1 reto |
+| 17 | **Gonzalo Garcia** | Desestructuración y `Object.entries` | 1 reto |
+
+---
+
+## 📝 Detalle de Ejercicios por Estudiante
+
+---
+
+### 01. Walter Castro
+> *Retos pendientes por asignar.*
+
+---
+
+### 02. Carol Hernandez
+> *Retos pendientes por asignar.*
+
+---
+
+### 03. Juan Diaz
+**Tema:** Tipos Primitivos, Objetos y Arrays
+
+```javascript
 // --- Reto 1: Identificar tipos primitivos ---
 // Declara las siguientes constantes con los valores indicados:
 //   texto = "hola"
@@ -17,7 +95,6 @@
 //   grande = 123n
 // Retorna un objeto con el typeof de cada una:
 //   { texto, numero, booleano, nulo, indefinido, simbolo, grande }
-// donde cada valor es el resultado de typeof sobre la variable.
 function identificarPrimitivos() {
   // Tu código aquí
 }
@@ -76,9 +153,14 @@ function crearObjeto() {
 function trabajarConArreglos() {
   // Tu código aquí
 }
+```
 
-4. Fernanda Zuluaga
+---
 
+### 04. Fernanda Zuluaga
+**Tema:** Template Literals e Interpolación
+
+```javascript
 // --- Reto 1: Mensaje de bienvenida con interpolación ---
 // Recibe "nombre" (ej: "JavaScript") y "version" (ej: "6").
 // Retorna el string: "Bienvenido a [nombre], versión [version]."
@@ -126,9 +208,14 @@ function tipoDeResultadoInterpolado() {
 function crearNotaMultilinea(titulo, item1, item2) {
   // Tu código aquí
 }
+```
 
-5. Maria Camila Ortiz
+---
 
+### 05. Maria Camila Ortiz
+**Tema:** Métodos de Strings (`length`, `slice`, `split`, `trim`)
+
+```javascript
 // --- Reto 1: Contar caracteres con length ---
 // Recibe un string "texto". Retorna la cantidad de caracteres (usa la propiedad length).
 function contarCaracteres(texto) {
@@ -163,9 +250,14 @@ function dividirEnPartes(texto, separador) {
 function limpiarEspacios(texto) {
   // Tu código aquí
 }
+```
 
-6. Vanessa Castañeda
+---
 
+### 06. Vanessa Castañeda
+**Tema:** Coerción de Tipos y Conversión Numérica
+
+```javascript
 // --- Reto 1: Coerción implícita con el operador + ---
 // Recibe "str" (string, ej: '5') y "num" (número, ej: 3).
 // Retorna el resultado de str + num (JavaScript concatena, no suma).
@@ -205,9 +297,14 @@ function convertirStringANumero(str) {
 function parsearEnteroYDecimal(strEntero, strDecimal) {
   // Tu código aquí
 }
+```
 
-7. Dayvid Ruiz
+---
 
+### 07. Dayvid Ruiz
+**Tema:** Operadores de Comparación e Igualdad
+
+```javascript
 // --- Reto 1: Igualdad débil (==) ---
 // Recibe dos valores "a" y "b". Retorna el resultado de comparar con ==.
 // La coerción puede hacer que 5 == '5' sea true.
@@ -242,9 +339,14 @@ function resultadoDesigualdadEstricta(a, b) {
 function sonIgualesConCoercion(a, b) {
   // Tu código aquí
 }
+```
 
-8. Kevin Moreno
+---
 
+### 08. Kevin Moreno
+**Tema:** Operadores Lógicos (`&&`, `||`, `!`)
+
+```javascript
 // --- Reto 1: AND (&&) ---
 // Recibe dos booleanos "a" y "b".
 // Retorna el resultado de a && b (true solo si ambas son true).
@@ -279,9 +381,14 @@ function puedeVerListaUsuarios(esAdmin, estaActivo) {
 function puedeAcceder(esUsuarioValido, tienePermisoEspecial) {
   // Tu código aquí
 }
+```
 
-9. Omar Rosario
+---
 
+### 09. Omar Rosario
+**Tema:** Estructuras Condicionales (`if`, `else if`, `else`)
+
+```javascript
 // --- Reto 1: Condición simple (mayor de edad) ---
 // Recibe "edad" (número). Retorna true si edad >= 18, false en caso contrario.
 // Usa if y else (o solo return de una comparación).
@@ -312,11 +419,15 @@ function mensajeEdadDetallado(edad) {
 function cumpleMinimo(valor, minimo) {
   // Tu código aquí
 }
+```
 
+---
 
-10. Diana Sosa
+### 10. Diana Sosa
+**Tema:** Estructura Condicional `switch`
 
-/ --- Reto 1: Día laboral o fin de semana ---
+```javascript
+// --- Reto 1: Día laboral o fin de semana ---
 // Recibe "dia" (string en minúsculas: "lunes", "martes", ..., "domingo").
 // Retorna "día laboral" para lunes a viernes, "fin de semana" para sábado y domingo,
 // "día no válido" para cualquier otro valor.
@@ -353,9 +464,14 @@ function categoriaPorCodigo(codigo) {
 function diasDelMes(mes) {
   // Tu código aquí
 }
+```
 
-11. Josue Castañeda
+---
 
+### 11. Josue Castañeda
+**Tema:** Bucles e Iteraciones I (`for`, `while`, `do-while`)
+
+```javascript
 // --- Reto 1: for con índice i ---
 // Recibe "n" (número). Usa un bucle for con let i = 0; i < n; i++.
 // Retorna un array con los números de 0 hasta n - 1 (ej: n = 5 → [0, 1, 2, 3, 4]).
@@ -377,8 +493,14 @@ function contarConWhile(limite) {
 function contarConDoWhile(limite) {
   // Tu código aquí
 }
+```
 
-12. Kevin Perea
+---
+
+### 12. Kevin Perea
+**Tema:** Bucles e Iteraciones II (`while`, `do-while`)
+
+```javascript
 // --- Reto 1: while con contador e incremento seguro ---
 // Recibe "n" (número). Usa un bucle while con un contador que empieza en 0.
 // Mientras contador < n, agrega el valor actual del contador a un array y luego
@@ -404,15 +526,21 @@ function contarHastaLimite(limite) {
 function doWhileAlMenosUnaVez(limite) {
   // Tu código aquí
 }
+```
 
-13. Angel Garzon
+---
 
+### 13. Angel Garzon
+**Tema:** Funciones, Parámetros y Arrow Functions
+
+```javascript
 // --- Reto 1: Arrow function con parámetro por defecto y Date.now() ---
 // Recibe "contenido" (string) y "titulo" (string, opcional, por defecto 'sin título').
 // Retorna un objeto { titulo, contenido, creado } donde creado = Date.now() (número en ms).
 // Ejemplo: crearNota('Mi contenido') → { titulo: 'sin título', contenido: 'Mi contenido', creado: 1234567890123 }
-function crearNota(contenido, titulo) {
+function crearNota(contenido, titulo = 'sin título') {
   // Tu código aquí
+}
 
 // --- Reto 2: Función que crea un objeto usuario (parámetros y retorno) ---
 // Recibe "nombre" (string) y "edad" (número). Retorna un objeto { nombre, edad }.
@@ -428,9 +556,14 @@ function crearUsuario(nombre, edad) {
 function multiplicar(a, b) {
   // Tu código aquí
 }
+```
 
-14. Carolina Ramirez
+---
 
+### 14. Carolina Ramirez
+**Tema:** *Scope* (Ámbito de Variables)
+
+```javascript
 // --- Reto 1: Acceso a variable global ---
 // Declara una variable global llamada "mensajeGlobal" con el valor "Hola mundo"
 // y retórnala desde la función.
@@ -452,21 +585,14 @@ function scopeBloque() {
   // Tu código aquí
   // Usa un if (true) para crear el bloque
 }
+```
 
-15. Yira Gomez
+---
 
- *  Map y Filter - Manipula arreglos de objetos
- *
- * Los métodos de orden superior como map y filter permiten trabajar con
- * arreglos de forma declarativa, sin mutar el array original.
- *
- * Conceptos clave:
- * - map(): Transforma cada elemento y retorna un nuevo array
- * - filter(): Selecciona elementos que cumplan una condición
- * - Spread operator (...): Copia propiedades de objetos
- * - Arrow functions: Sintaxis concisa para callbacks
- */
+### 15. Yira Gomez
+**Tema:** Métodos de Arreglos (`map`)
 
+```javascript
 /**
  * Ejercicio 1: Extraer títulos con map
  *
@@ -486,18 +612,29 @@ function scopeBloque() {
 function extraerTitulos(notas) {
   // Tu código aquí
 }
+```
 
-16. Juan David Cuervo
+---
 
-// --- Reto 6: Añadir propiedades con spread ---
+### 16. Juan David Cuervo
+**Tema:** Inmutabilidad y Spread Operator (`...`)
+
+```javascript
+// --- Reto 1: Añadir propiedades con spread ---
 // Crea un nuevo objeto a partir del objeto usuario recibido,
 // añadiendo las propiedades "activo: true" y "rol: 'admin'".
 // No modifiques el objeto original.
 function agregarPropiedadesUsuario(usuario) {
   // Tu código aquí
 }
+```
 
-17. Gonzalo Garcia
+---
+
+### 17. Gonzalo Garcia
+**Tema:** Desestructuración y `Object.entries`
+
+```javascript
 // --- Reto 1: Transformar objeto a array de strings ---
 // Usa destructuración y Object.entries para transformar el objeto recibido
 // en un array de strings con formato "clave: valor".
@@ -506,4 +643,11 @@ function objetoAStringArray(objeto) {
   // Tu código aquí
   // Tip: Usa Object.entries() y map()
 }
+```
 
+---
+
+## 💡 Recomendaciones Técnicas
+- **Captura de valores:** Recuerda que los `<input>` HTML retornan valores tipo `string`. Usa `Number()`, `parseInt()` o `parseFloat()` cuando tu función requiera operaciones numéricas.
+- **Manejo del DOM:** Utiliza selectores claros (`document.getElementById()` o `document.querySelector()`) y gestiona eventos con `.addEventListener()`.
+- **Limpieza de código:** Mantén una indentación adecuada, nombres semánticos de variables y comenta cualquier sección que requiera explicación adicional.
