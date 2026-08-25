@@ -46,8 +46,8 @@ Sigue estos pasos ordenadamente para desarrollar y entregar tu taller:
 
 | # | Estudiante | Tema Principal | Cantidad de Retos |
 |---|---|---|:---:|
-| 01 | **Walter Castro** | *(Pendiente de asignar funciones)* | - |
-| 02 | **Carol Hernandez** | *(Pendiente de asignar funciones)* | - |
+| 01 | **Walter Castro** | *Exonerado* | - |
+| 02 | **Carol Hernandez** | *Exonerada* | - |
 | 03 | **Juan Diaz** | Tipos Primitivos, Objetos y Arrays | 7 retos |
 | 04 | **Fernanda Zuluaga** | Template Literals e Interpolación | 6 retos |
 | 05 | **Maria Camila Ortiz** | Métodos de Strings (`length`, `slice`, `split`, `trim`) | 5 retos |
@@ -71,12 +71,12 @@ Sigue estos pasos ordenadamente para desarrollar y entregar tu taller:
 ---
 
 ### 01. Walter Castro
-> *Retos pendientes por asignar.*
+> *Exonerado*
 
 ---
 
 ### 02. Carol Hernandez
-> *Retos pendientes por asignar.*
+> *Exonerada*
 
 ---
 
